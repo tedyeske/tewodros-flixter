@@ -9,7 +9,8 @@
       <%= link_to course.title, course_path(course) %>
     </h2>
     <br />
-    <%#= image_tag course.image.url, class: "mx-auto d-block img-fluid" %>
+    
+    <%= image_tag course.image.to_s, class: "mx-auto d-block img-fluid" %>
     <br />
     <div class="row">
       <div class="col-sm-8 col-12">
